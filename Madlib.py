@@ -19,8 +19,14 @@ list_verb = list(input("Enter at least three verbs: ").split())
 while len(list_verb) < 3:
     list_verb = list(input("Enter at least three verbs again: ").split())
 
+lst_noun = list(input("Enter at least two nouns: ").split())
+while len(lst_noun) < 2:
+    lst_noun = list(input("Enter at least two nouns again: ").split())
+
+
 print(list_nouns)
 print(list_jobs)
 print(list_animals)
 print(list_place)
 print(list_verb)
+print(lst_noun)
