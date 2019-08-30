@@ -1,5 +1,6 @@
-noun = input("Enter a noun: ")
-while noun == "":
-    noun = input("Enter a noun again: ")
+#shoutout to GeeksforGeeks for the list assist!
+list_noun = list(input("Enter at least two plural nouns: ").split())
+while len(list_noun) == 0:
+    list_noun = list(input("Enter at least two plural nouns again: ").split())
 
-print(noun)    
+print(list_noun)
