@@ -1,3 +1,5 @@
+import random
+
 #shoutout to GeeksforGeeks for the list assist!
 list_nouns = list(input("Enter at least two plural nouns: ").split())
 while (len(list_nouns) < 2):
@@ -23,10 +25,14 @@ lst_noun = list(input("Enter at least two nouns: ").split())
 while len(lst_noun) < 2:
     lst_noun = list(input("Enter at least two nouns again: ").split())
 
+plural_noun = str(random.choice(list_nouns))
+occupation = str(random.choice(list_jobs))
+animal = str(random.choice(list_animals))
+place = str(random.choice(list_place))
+verb = str(random.choice(list_verb))
+noun = str(random.choice(lst_noun))
 
-print(list_nouns)
-print(list_jobs)
-print(list_animals)
-print(list_place)
-print(list_verb)
-print(lst_noun)
+
+#prompt =
+
+print(plural_noun)
