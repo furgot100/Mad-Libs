@@ -33,6 +33,8 @@ verb = str(random.choice(list_verb))
 noun = str(random.choice(lst_noun))
 
 
-#prompt =
+def story(plural,job,animal,place,verb,noun):
+    prompt = 'In the book War of the ' + noun + ', the main character is an anonymous ' + job + '\n who records the arrival of ' + animal + ' in ' + place + '. Needless to say, havoc reigns as the \n' + animal + ' continue to ' + verb + ' everything in sight, until they are killed by the common ' + noun + '.' 
+    print(prompt)
 
-print(plural_noun)
+print(story(plural_noun,occupation,animal,place,verb,noun))
